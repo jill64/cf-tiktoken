@@ -1,0 +1,65 @@
+{
+  "name": "@jill64/cf-tiktoken",
+  "description": "Use js-tiktoken on Cloudflare Pages",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "bugs": "https://github.com/jill64/cf-tiktoken/issues",
+  "homepage": "https://github.com/jill64/cf-tiktoken#readme",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "!*.spec.*"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "browser": "./dist/browser.js",
+      "default": "./dist/edge.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jill64/cf-tiktoken.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "bpe",
+    "cloudflare",
+    "gpt",
+    "llm",
+    "pages",
+    "tiktoken"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build && npm run package",
+    "preview": "npm run build && vite preview",
+    "prepack": "npm run build",
+    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
+    "check": "svelte-kit sync && npx svelte-check",
+    "lint": "npm run check && npx eslint .",
+    "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-cloudflare": "2.3.3",
+    "@sveltejs/kit": "1.27.6",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-deprecation": "2.0.0",
+    "eslint-plugin-svelte": "2.35.0",
+    "prettier-plugin-svelte": "3.1.0",
+    "svelte": "4.2.3",
+    "typescript": "5.2.2",
+    "vite": "4.5.0",
+    "vitest": "0.34.6"
+  },
+  "dependencies": {
+    "js-tiktoken": "1.0.7"
+  }
+}
