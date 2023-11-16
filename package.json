@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cf-tiktoken",
   "description": "Use js-tiktoken on Cloudflare Pages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
@@ -48,6 +48,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "js-tiktoken": "1.0.7"
+    "js-tiktoken": "1.0.8"
   }
 }
