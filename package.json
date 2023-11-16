@@ -48,6 +48,6 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "js-tiktoken": "1.0.7"
+    "js-tiktoken": "1.0.8"
   }
 }
