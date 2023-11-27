@@ -1,6 +1,6 @@
 {
   "name": "@jill64/cf-tiktoken",
-  "description": "Use js-tiktoken on Cloudflare Pages",
+  "description": "⏳ js-tiktoken on Cloudflare Pages",
   "version": "0.1.1",
   "type": "module",
   "license": "MIT",
