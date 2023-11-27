@@ -23,7 +23,7 @@ This library uses conditional export to **exclude** `js-tiktoken` implementation
 ```js
 // This function can be imported by both edge and browser.
 // however, on edge it returns invalid output regardless of the input value.
-import { encodingForModel } from '@jill64/cf--tiktoken'
+import { encodingForModel } from '@jill64/cf-tiktoken'
 
 export const fn = () => {
   const enc = encodingForModel('gpt-4')
