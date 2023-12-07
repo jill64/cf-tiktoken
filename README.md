@@ -6,12 +6,6 @@
 
 ⏳ js-tiktoken on Cloudflare Pages
 
-## Installation
-
-```sh
-npm i @jill64/cf-tiktoken
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 Currently [`js-tiktoken`](https://github.com/dqbd/tiktoken/tree/main/js) does not work with Cloudflare Pages due to worker size limitations.  
@@ -19,6 +13,12 @@ This library uses conditional export to **exclude** `js-tiktoken` implementation
 
 > [!IMPORTANT]
 > This is **not** the library that makes `js-tiktoken` work on Cloudflare Workers.
+
+## Installation
+
+```sh
+npm i @jill64/cf-tiktoken
+```
 
 ```js
 // This function can be imported by both edge and browser.
