@@ -2,7 +2,7 @@
 
 # cf-tiktoken
 
-[![npm-version](https://img.shields.io/npm/v/@jill64/cf-tiktoken)](https://npmjs.com/package/@jill64/cf-tiktoken) [![npm-license](https://img.shields.io/npm/l/@jill64/cf-tiktoken)](https://npmjs.com/package/@jill64/cf-tiktoken) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/cf-tiktoken)](https://npmjs.com/package/@jill64/cf-tiktoken) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/cf-tiktoken)](https://npmjs.com/package/@jill64/cf-tiktoken)
+<!----- BEGIN GHOST DOCS BADGES -----><a href="https://npmjs.com/package/@jill64/cf-tiktoken"><img src="https://img.shields.io/npm/v/@jill64/cf-tiktoken" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/cf-tiktoken"><img src="https://img.shields.io/npm/l/@jill64/cf-tiktoken" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/cf-tiktoken"><img src="https://img.shields.io/npm/dm/@jill64/cf-tiktoken" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/cf-tiktoken"><img src="https://img.shields.io/bundlephobia/min/@jill64/cf-tiktoken" alt="npm-min-size" /></a><!----- END GHOST DOCS BADGES ----->
 
 ⏳ js-tiktoken on Cloudflare Pages
 
