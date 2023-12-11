@@ -4,7 +4,12 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/cf-tiktoken/issues",
   "homepage": "https://github.com/jill64/cf-tiktoken#readme",
   "files": [
@@ -20,7 +25,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/cf-tiktoken.git"
+    "url": "https://github.com/jill64/cf-tiktoken.git",
+    "image": "https://opengraph.githubassets.com/bad6b27ce1f1df11bc8f29c1a7794652a845e1c1f7d86459cdd4e8598953abac/jill64/cf-tiktoken"
   },
   "publishConfig": {
     "access": "public"
