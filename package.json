@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/cf-tiktoken.git",
-    "image": "https://opengraph.githubassets.com/e0700aeba9d0d6129957c7508e6c3e8634bc982a37833f09d3e2840d7f2351ae/jill64/cf-tiktoken"
+    "image": "https://opengraph.githubassets.com/2d234f1d3313637b8b9f5722978463b648302d22a2af45905623821460aace5d/jill64/cf-tiktoken"
   },
   "publishConfig": {
     "access": "public"
