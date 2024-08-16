@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cf-tiktoken",
   "description": "⏳ js-tiktoken on Cloudflare Pages",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/cf-tiktoken.git",
-    "image": "https://opengraph.githubassets.com/dc80c676efe7479fb6650edb5d5a7282532d74fbc28b504160fa9cb5ddcdcd8c/jill64/cf-tiktoken"
+    "image": "https://opengraph.githubassets.com/7cdfb30ecb83faf04e0dff85f128fc2298f339b27d8eafc5c1a20bfbea7d8273/jill64/cf-tiktoken"
   },
   "publishConfig": {
     "access": "public"
@@ -52,6 +52,6 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "js-tiktoken": "1.0.12"
+    "js-tiktoken": "1.0.14"
   }
 }
