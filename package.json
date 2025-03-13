@@ -1,7 +1,7 @@
 {
   "name": "@jill64/cf-tiktoken",
   "description": "⏳ js-tiktoken on Cloudflare Pages",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -40,10 +40,10 @@
     "tiktoken"
   ],
   "scripts": {
-    "build": "tsc && npx publint",
-    "prepack": "npm run build",
-    "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier -w ."
+    "build": "tsc && bunx publint",
+    "prepack": "bun run build",
+    "lint": "bunx eslint . && bunx depcheck",
+    "format": "bunx prettier -w ."
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
