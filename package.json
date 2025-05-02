@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/cf-tiktoken.git",
-    "image": "https://opengraph.githubassets.com/895c7db3e988edde0018e4a1da60303ffdaacf0aefba189fbe7ab7374d1be6e1/jill64/cf-tiktoken"
+    "image": "https://opengraph.githubassets.com/f1b673dde60b1cec7026bd6210f81242e21b8f4a929a0595432fcec884094914/jill64/cf-tiktoken"
   },
   "publishConfig": {
     "access": "public"
@@ -47,7 +47,7 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@jill64/eslint-config-ts": "2.0.30",
+    "@jill64/eslint-config-ts": "2.0.31",
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.8.3"
   },
